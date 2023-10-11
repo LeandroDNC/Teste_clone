@@ -1,0 +1,206 @@
+/* isso é a home  */
+.perfil {
+    border: solid 1px rgb(212, 212, 212);
+    position: fixed;
+    top: -0%;
+    left: 00px;
+    height: 100%;
+    background-color: #ffffff;
+    width: 350px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.n5,
+.n51 {
+    
+    top: 170px;
+    left: 20px;
+    margin-top: 7%;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+
+}
+
+.nome1 {
+    position: fixed;
+    left: 50px;
+    cursor: pointer;
+    top: 30px;
+    font-size: 40px;
+}
+
+.n5:hover {
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+.n51:hover {
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+.feed {
+    scrollbar-width: thin;
+    overflow: scroll;
+    position: fixed;
+    top: 0px;
+    left: 352px;
+    background-color: rgb(255, 255, 255);
+    width: 172vh;
+    height: 100vh;
+
+}
+
+.q {
+    position: relative;
+    top: -900px;
+    left: 200px;
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 40.2%;
+}
+
+.foto {
+    width: 100%;
+}
+
+
+
+.todonome {
+    position: relative;
+    top: 10px;
+}
+
+.salva {
+    margin-left: 450px;
+}
+
+.icon i {
+    position: relative;
+    top: -5px;
+    margin-left: 25px;
+}
+
+.rool {
+    position: relative;
+    top: -20px;
+    left: 60px;
+    transform: rotateX(190deg);
+    overflow: auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+}
+
+
+.salva :hover {
+    background-color: #e4e4e4;
+}
+
+.rol1 {
+    transform: rotateX(190deg);
+    margin-right: 30px;
+}
+
+.nn {
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.n11{
+    width: 100px;
+    height: 95px;
+    border-radius: 100%;
+}
+
+.fd {
+    margin-left: 400px;
+}
+
+.orr {
+    position: relative;
+    top: 25px;
+    border: 5px ridge;
+    border-color: rgb(245, 49, 49);
+    border-radius: 60%;
+}
+
+.rol12 {
+    position: relative;
+    left: 1100px;
+    top: -130px;
+
+    width: 500px;
+    display: flex;
+}
+
+.orr2 {
+    margin: 15px;
+    font-size: 30px;
+    width: 30px;
+    height: 40px;
+    border-radius: 100%;
+    border: ridge red;
+}
+
+.nn2 {
+    position: relative;
+    font-size: 25px;
+}
+
+.seguir {
+    text-decoration: none;
+    color: rgb(41, 92, 234);
+    position: relative;
+    left: 120px;
+    margin-left: 50px;
+}
+
+.bx {
+    display: flex;
+    flex-direction: column;
+}
+
+.bz {
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+}
+
+.suges {
+    position: relative;
+    left: -250px;
+
+}
+
+/* pasta mais */
+
+.mais {
+    background-color: #ececec;
+    text-align: center;
+    border: 1px ridge rgb(119, 119, 119);
+    width: 200px;
+    height: 300px;
+
+}
+
+.optio {
+    border: 2px ridge rgb(97, 97, 97);
+    margin: 30px;
+    transition: .4s;
+    font-family: sans-serif;
+}
+
+.optio:hover {
+    background-color: #565656;
+    color: #e4e4e4;
+}

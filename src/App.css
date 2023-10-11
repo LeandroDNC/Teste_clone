@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(rgb(119, 179, 247), rgb(141, 187, 253));
+
+  background-color: #f6f9ff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}
+
+.login-container {
+  margin-top: -160px;
+  position: relative;
+}
+
+.inst {
+
+  width: 300px;
+}
+
+.fil {
+  background-color: #f6f9ff;
+  position: relative;
+  top: 130px;
+  width: 600px;
+  height: 530px;
+}
+
+.title {
+  position: relative;
+  top: -20px;
+  font-size: 60px;
+  color: rgb(29, 29, 29);
+  font-family: 'Lucida Sans Unicode';
+
+
+}
+
+.imp1 {
+  position: relative;
+  top: -80px;
+  background-color: rgb(242, 242, 242);
+  font-size: 18px;
+  width: 400px;
+  height: 55px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.buut {
+  position: relative;
+  top: -80px;
+  margin-top: 15px;
+  font-size: 20px;
+  width: 405px;
+  height: 50px;
+  background: #57a2f8;
+  border-radius: 10px;
+  color: white;
+  transition: .4s;
+}
+
+.buut:hover {
+  color: #f3f3f3;
+  background-color: #0d6ab1;
+}
+
+#face {
+  color: #003674;
+}
+
+.nome2 {
+  font-size: 25px;
+
+}
+
+.forg {
+  position: relative;
+  top: -120px;
+}
+
+.forg a {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(13, 7, 139);
+
+}
+
+.nomeface {
+  position: relative;
+  top: -100px;
+}
+
+.nomeface a {
+  margin-left: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(13, 7, 139);
+}
+
+.or {
+  position: relative;
+  top: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.tell {
+  justify-content: space-evenly;
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 100px;
+  border: none;
+
+}
+
+.tel {
+  position: relative;
+  top: 100px;
+  width: 650px;
+  left: 50px;
+  height: 900px;
+}
+
+.jup {
+  border: none;
+}
+
+.linha {
+  color: #959595;
+  position: relative;
+  top: -100px;
+}
+
+.goo {
+  background-color: #f6f9ff;
+  top: -130px;
+  position: relative;
+  left: 212px;
+  border: solid 1px;
+  border-color: #959595;
+  width: 462px;
+}
+
+.n {
+
+  font-size: 20px;
+  padding: 10px;
+}
+
+.n a {
+  text-decoration: none;
+  color: #57a2f8;
+}
+
+.h {
+  font-size: 20px;
+  position: relative;
+  left: 200px;
+  top: -130px;
+}
+
+.icon {
+  display: flex;
+
+}
+
+.im {
+  position: relative;
+  left: 280px;
+  top: -140px;
+  width: 150px;
+  padding: 5px;
+
+}
