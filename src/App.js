@@ -1,7 +1,7 @@
 import './App.css';
 import './indexx.css'
-import Home from './Pastas/Home';
-import Login from './Pastas/Login';
+import Home from './Componentes/Home';
+import Login from './Componentes/Login';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
